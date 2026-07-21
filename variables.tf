@@ -95,7 +95,7 @@ variable "attributes" {
 variable "deletion_protection_enabled" {
   description = "Enables deletion protection for table"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "global_secondary_indexes" {
